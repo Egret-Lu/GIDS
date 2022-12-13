@@ -113,31 +113,31 @@ Here is the outline of our codes
 ###EDA
 
 1. EDA_applicant_profile.ipynb： 
-  
+  - Outline:
     - Who applies to each of our programs? 
     - What is the makeup of those who get admitted and those who accept our offer.
     - Using application data, analyze master forn different programs
     - Compare the data of admitted, rejected, accepted or denied students.
     - Common info age, M/F, URM, international, GPA, TOEFL/IETLS, GRE
     - Trends of the applicants
-    - Main Figures:
-        - Gender of Admitted Students Grouped by Three Programs
-        - Percentage of Female across Years
-        - Top Birth States of Our Applicants
-        - Average GPA score of Our Applicans
-        - Age Distribution of Admitted Applicants
-        - Career Plan for All Applicants
+  - Main Figures:
+      - Gender of Admitted Students Grouped by Three Programs
+      - Percentage of Female across Years
+      - Top Birth States of Our Applicants
+      - Average GPA score of Our Applicans
+      - Age Distribution of Admitted Applicants
+      - Career Plan for All Applicants
     
 2. EDA_applicant_behaviour.ipynb： 
-  
+  - Outline
     - Derive insights on the application timeline
     - Understand the types of institutions/programs people are choosing to attend.
-    - Main Figures:
-        - The Number of Completed References before Submission
-        - Timeline of Submitting Applications
-        - Trend of Admitted Data Science Students' Interest
-        - rend of Admitted DS Students Heard About UR 
-        - Where do Applicants who doesn't Attend UR Go
+  - Main Figures:
+      - The Number of Completed References before Submission
+      - Timeline of Submitting Applications
+      - Trend of Admitted Data Science Students' Interest
+      - rend of Admitted DS Students Heard About UR 
+      - Where do Applicants who doesn't Attend UR Go
     
 ### Model 
 
