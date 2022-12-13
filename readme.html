@@ -499,6 +499,8 @@ simple example steps.</p>
 </div>
 <div id="code-outline" class="section level2">
 <h2>Code Outline</h2>
+<p>Here is the outline of our codes</p>
+<p>###EDA</p>
 <ol style="list-style-type: decimal">
 <li><p>EDA_applicant_profile.ipynb：</p>
 <ul>
@@ -510,22 +512,76 @@ our offer.</li>
 students.</li>
 <li>Common info age, M/F, URM, international, GPA, TOEFL/IETLS, GRE</li>
 <li>Trends of the applicants</li>
+<li>Main Figures:
+<ul>
+<li>Gender of Admitted Students Grouped by Three Programs</li>
+<li>Percentage of Female across Years</li>
+<li>Top Birth States of Our Applicants</li>
+<li>Average GPA score of Our Applicans</li>
+<li>Age Distribution of Admitted Applicants</li>
+<li>Career Plan for All Applicants</li>
+</ul></li>
 </ul></li>
 <li><p>EDA_applicant_behaviour.ipynb：</p>
 <ul>
 <li>Derive insights on the application timeline</li>
 <li>Understand the types of institutions/programs people are choosing to
 attend.</li>
-</ul></li>
-<li><p>Classification_models.ipynb：</p>
+<li>Main Figures:
 <ul>
+<li>The Number of Completed References before Submission</li>
+<li>Timeline of Submitting Applications</li>
+<li>Trend of Admitted Data Science Students’ Interest</li>
+<li>rend of Admitted DS Students Heard About UR</li>
+<li>Where do Applicants who doesn’t Attend UR Go</li>
+</ul></li>
+</ul></li>
+</ol>
+<div id="model" class="section level3">
+<h3>Model</h3>
+<p>Classification_models.ipynb：</p>
+<ol style="list-style-type: decimal">
+<li>Data Preprocessing:</li>
+</ol>
+<ul>
+<li>Missing Data Handling: -Deletion: Missing &gt;10%
+<ul>
+<li>Imputation: Missing not completely fill -1</li>
+</ul></li>
+<li>Feature Engineer:
+<ul>
+<li>Focus on features that unsubmitted ones did not fill in</li>
+<li>Generate new variables based on existed ones (e.g. number of
+previous jobs, completed references, previous institutions and other
+applied colleges)<br />
+</li>
+</ul></li>
+<li>Data Transformation:
+<ul>
+<li>Categorical variables: Transform to one-hot encoder (dummy
+variables)</li>
+<li>Normalization: MinMaxScaler</li>
+</ul></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
 <li>Predict which students will submit/un submit our offer of
-admissions?</li>
-<li>Predict which students will accept/decline our offer of
-admissions?</li>
+admissions?
+<ul>
+<li>Gaussian Mixture</li>
+<li>SMOTE+ Linear Regression</li>
+</ul></li>
+<li>Predict which students will accept/decline our offer of admissions?
+<ul>
+<li>SVM (polynomial of degree 2)</li>
+<li>SVM (RBF kernel)</li>
+<li>Gaussian Naive Bayes</li>
+<li>Gaussian Process</li>
+<li>K Nearest Neighbour</li>
+<li>Quadratic Discriminant Analysis</li>
 </ul></li>
 </ol>
 <!-- ROADMAP -->
+</div>
 </div>
 <div id="roadmap" class="section level2">
 <h2>Roadmap</h2>
@@ -552,6 +608,7 @@ Delivery</a></li>
 </div>
 <div id="contact" class="section level2">
 <h2>Contact</h2>
+<p>If you have any questions, please contact our group members:</p>
 <ul>
 <li><p>Erqian Xu: <a href="mailto:exu6@u.rochester.edu" class="email">exu6@u.rochester.edu</a></p></li>
 <li><p>Beilei Guo: <a href="mailto:bguo5@u.rochester.edu" class="email">bguo5@u.rochester.edu</a></p></li>

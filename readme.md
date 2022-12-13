@@ -108,6 +108,9 @@ Figures shows in the [report](https://www.overleaf.com/read/bqbxfrycbmhf)
 
 <!-- outline -->
 ## Code Outline
+Here is the outline of our codes
+
+###EDA
 
 1. EDA_applicant_profile.ipynb： 
   
@@ -117,18 +120,52 @@ Figures shows in the [report](https://www.overleaf.com/read/bqbxfrycbmhf)
     - Compare the data of admitted, rejected, accepted or denied students.
     - Common info age, M/F, URM, international, GPA, TOEFL/IETLS, GRE
     - Trends of the applicants
+    - Main Figures:
+        - Gender of Admitted Students Grouped by Three Programs
+        - Percentage of Female across Years
+        - Top Birth States of Our Applicants
+        - Average GPA score of Our Applicans
+        - Age Distribution of Admitted Applicants
+        - Career Plan for All Applicants
     
 2. EDA_applicant_behaviour.ipynb： 
   
     - Derive insights on the application timeline
     - Understand the types of institutions/programs people are choosing to attend.
+    - Main Figures:
+        - The Number of Completed References before Submission
+        - Timeline of Submitting Applications
+        - Trend of Admitted Data Science Students' Interest
+        - rend of Admitted DS Students Heard About UR 
+        - Where do Applicants who doesn't Attend UR Go
     
-    
-3. Classification_models.ipynb： 
-  
-    - Predict which students will submit/un submit our offer of admissions?
-    - Predict which students will accept/decline our offer of admissions?
-    
+### Model 
+
+Classification_models.ipynb： 
+
+1. Data Preprocessing:
+  - Missing Data Handling: 
+      -Deletion: Missing >10% 
+      - Imputation: Missing not completely fill -1
+  - Feature Engineer:
+    - Focus on features that unsubmitted ones did not fill in 
+    - Generate new variables based on existed ones (e.g. number of previous jobs, completed references, previous institutions and other applied colleges)                     
+  - Data Transformation:
+    - Categorical variables: Transform to one-hot encoder (dummy variables)
+    - Normalization: MinMaxScaler      
+
+2. Predict which students will submit/un submit our offer of admissions?
+    - Gaussian Mixture
+    - SMOTE+ Linear Regression
+3. Predict which students will accept/decline our offer of admissions?
+    -  SVM (polynomial of degree 2) 
+    - SVM (RBF kernel)
+    - Gaussian Naive Bayes
+    - Gaussian Process
+    - K Nearest Neighbour
+    - Quadratic Discriminant Analysis
+
+
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -151,6 +188,8 @@ Figures shows in the [report](https://www.overleaf.com/read/bqbxfrycbmhf)
 
 <!-- CONTACT -->
 ## Contact
+If you have any questions, please contact our group members:
+
 - Erqian Xu: exu6@u.rochester.edu
 
 - Beilei Guo: bguo5@u.rochester.edu
