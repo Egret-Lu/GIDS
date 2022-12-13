@@ -112,9 +112,10 @@ Install required modules in terminal ```pip install -r requirements.txt```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-1. User Profile Analysis: EDA_applicant_profile.ipynb
-2. User Behavior Analysis: EDA_applicant_behaviour.ipynb
-3. Prediction Model: Classification_models.ipynb
+1. Data File: unzip DATA.zip
+2. User Profile Analysis: EDA_applicant_profile.ipynb
+3. User Behavior Analysis: EDA_applicant_behaviour.ipynb
+4. Prediction Model: Classification_models.ipynb
 
 For more explanations, please refer to the [Report](https://www.overleaf.com/read/bqbxfrycbmhf)
 
