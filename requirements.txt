@@ -1,0 +1,10 @@
+pandas==1.4.1
+mpmath==1.2.1
+matplotlib==3.5.1
+numpy==1.21.5
+seaborn==0.11.2
+july==0.1.3
+nltk==3.7
+scikit-learn==1.0.2
+mlxtend==0.21.0
+imbalanced-learn==0.7.0
