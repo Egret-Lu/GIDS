@@ -155,7 +155,7 @@ For more explanations, please refer to the [Report](https://www.overleaf.com/rea
 
 - Ziyue Yang: zyang43@ur.rochester.edu
 
-
+Project Link: [GIDS github](https://github.com/Egret-Lu/GIDS)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
