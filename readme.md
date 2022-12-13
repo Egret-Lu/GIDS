@@ -108,9 +108,10 @@ Figures shows in the [report](https://www.overleaf.com/read/bqbxfrycbmhf)
 
 <!-- outline -->
 ## Code Outline
+
 Here is the outline of our codes
 
-###EDA
+### EDA
 
 1. EDA_applicant_profile.ipynb： 
   - Outline:
@@ -158,7 +159,7 @@ Classification_models.ipynb：
     - Gaussian Mixture
     - SMOTE+ Linear Regression
 3. Predict which students will accept/decline our offer of admissions?
-    -  SVM (polynomial of degree 2) 
+    - SVM (polynomial of degree 2) 
     - SVM (RBF kernel)
     - Gaussian Naive Bayes
     - Gaussian Process
