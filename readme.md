@@ -115,10 +115,10 @@ For more explanations, please refer to the [Report](https://www.overleaf.com/rea
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Figure List
-1. EDA_applicant_profile.ipynb： Fig 
-2. EDA_applicant_behaviour.ipynb： Fig
-3. Classification_models.ipynb： Fig
+## Figure List (Report)
+1. EDA_applicant_profile.ipynb： Fig 1, 2, 3, 4, 5, 6, 7, 25, 27
+2. EDA_applicant_behaviour.ipynb： Fig 8, 9, 10, 11, 12, 13, 14, 26
+3. Classification_models.ipynb： Fig 19,20,21, 22, 23, 24
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
