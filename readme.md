@@ -88,6 +88,7 @@ Install required modules in terminal ```pip install -r requirements.txt```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
 1. Data File: unzip DATA.zip
 2. User Profile Analysis: EDA_applicant_profile.ipynb
 3. User Behavior Analysis: EDA_applicant_behaviour.ipynb
@@ -98,6 +99,7 @@ For more explanations, please refer to the [Report](https://www.overleaf.com/rea
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- Figure -->
 ## Figure List
+
 Figures shows in the [report](https://www.overleaf.com/read/bqbxfrycbmhf)
 
 1. EDA_applicant_profile.ipynb： Fig 1, 2, 3, 4, 5, 6, 7, 25, 27
