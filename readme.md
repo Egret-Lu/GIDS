@@ -40,7 +40,7 @@
   <summary>Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Abstract</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -53,6 +53,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#figure-list">Figure List</a></li>
+    <li><a href="#code-outline">Code Outline</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -62,7 +64,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Abstract
 
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
@@ -70,7 +72,11 @@
   </a>
  
 </div>
-This study explores the selection criteria and application procedure for graduate school admission. The aim of this study is threefold: First, who are the master applicants? Second, what are the characteristics of application cycles and applicants' behavior in three AS&E programs? Finally, who tends to accept or decline the offer? 
+Sponsor: [GIDS](https://www.sas.rochester.edu/dsc/)
+
+Project Link: [GIDS github](https://github.com/Egret-Lu/GIDS)
+
+This report presents our analysis of selection criteria and application procedure for graduate school admission across three programs from the Arts, Sciences, and Engineering (AS&E) program at the University of Rochester, including Computer Science, Data Science, and Electronic Chemical Engineering. Specifically, it unfolds applicants' characters in three ways: applicants' demographic information, applicants' behavior, and applicants' decision. It begins with an overview of the dataset, followed by exploratory data analysis results, and concludes with predictive models. Techniques to handle missing values that are not completely at random and algorithms to overcome data imbalance are explored. Implications and limitations are also discussed in this report. 
 
 Codes of the project is mainly based on python programming. 
 
@@ -88,14 +94,13 @@ Codes of the project is mainly based on python programming.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-
+<!-- Install modules -->
 ### Installation
 
 Install required modules in terminal ```pip install -r requirements.txt```
@@ -114,15 +119,39 @@ Install required modules in terminal ```pip install -r requirements.txt```
 For more explanations, please refer to the [Report](https://www.overleaf.com/read/bqbxfrycbmhf)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- Figure -->
+## Figure List
+Figures shows in the [report](https://www.overleaf.com/read/bqbxfrycbmhf)
 
-## Figure List (Report)
 1. EDA_applicant_profile.ipynb： Fig 1, 2, 3, 4, 5, 6, 7, 25, 27
 2. EDA_applicant_behaviour.ipynb： Fig 8, 9, 10, 11, 12, 13, 14, 26
 3. Classification_models.ipynb： Fig 19,20,21, 22, 23, 24
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- outline -->
+## Code Outline
 
+1. EDA_applicant_profile.ipynb： 
+  
+    - Who applies to each of our programs? 
+    - What is the makeup of those who get admitted and those who accept our offer.
+    - Using application data, analyze master forn different programs
+    - Compare the data of admitted, rejected, accepted or denied students.
+    - Common info age, M/F, URM, international, GPA, TOEFL/IETLS, GRE
+    - Trends of the applicants
+    
+2. EDA_applicant_behaviour.ipynb： 
+  
+    - Derive insights on the application timeline
+    - Understand the types of institutions/programs people are choosing to attend.
+    
+    
+3. Classification_models.ipynb： 
+  
+    - Predict which students will submit/un submit our offer of admissions?
+    - Predict which students will accept/decline our offer of admissions?
+    
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -155,9 +184,8 @@ For more explanations, please refer to the [Report](https://www.overleaf.com/rea
 
 - Ziyue Yang: zyang43@ur.rochester.edu
 
-Project Link: [GIDS github](https://github.com/Egret-Lu/GIDS)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- ACKNOWLEDGMENTS -->
